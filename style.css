@@ -1,11 +1,31 @@
 body {
-    background: yellow;
-    padding-top: 170px;
+    background: url(images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .box {
-    background: blue;
+    background: transparent linear-gradient(to left top, #949FCB 0%, #FFFCDC 100%) 0% 0% no-repeat padding-box;
     box-sizing: border-box;
     width: 500px;
-    margin: auto;
+    margin: 170px auto 0;
+    padding: 130px 75px 30px;
+    position: relative;
+}
+
+.avatar {
+    position: absolute;
+    top: -75px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+span {
+    background: white;
 }
