@@ -1,6 +1,5 @@
 body {
-    background: url(images/back.png);
-    background-repeat: no-repeat;
+    background: url(images/back.png) no-repeat;
     background-size: cover;
 }
 
@@ -28,4 +27,39 @@ body {
 
 span {
     background: white;
+}
+
+h1, .bold {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.description, .medium {
+    font-family: 'Alegreya', serif;
+    margin: 0;
+}
+
+.social {
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+}
+
+[alt=instagram] {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: unset;
+}
+
+.bold {
+    margin: 0;
+}
+
+.description {
+    margin-top: 30px;
 }
